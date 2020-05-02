@@ -436,7 +436,7 @@ aside.aside-left {
 } 
 .background-dark, .background-dark p, a.background-dark, a.background-dark:visited, a.background-dark:link, .background-dark a, .background-dark a:link, .background-dark a:visited, .background-dark a:hover, .background-dark a:active,
 .primary-color-dark .background-primary, .primary-color-dark .background-primary p, .primary-color-dark a.background-primary, .primary-color-dark a.background-primary:visited, .primary-color-dark a.background-primary:link, .primary-color-dark a.background-primary:visited, .primary-color-dark .background-primary a, .primary-color-dark .background-primary a:link, .primary-color-dark .background-primary a:visited, .primary-color-dark .background-primary a:hover, .primary-color-dark .background-primary a:active {
-  color:rgb(128,128,0);
+  color:rgb(0,0,0);
 }
 .background-white h1, .background-white h2, .background-white h3, .background-white h4, .background-white h5, .background-white h6,
 .background-white .h1, .background-white .h2, .background-white .h3, .background-white .h4, .background-white .h5, .background-white .h6, 
@@ -493,7 +493,7 @@ aside.aside-left {
   background-color: rgb(0,0,0); !important;
 }
 .background-dark, .primary-color-dark .background-primary {
-  background-color: rgb(0,0,128); !important; 
+  background-color: rgb(192,192,192); !important; 
 }
 /* Background Opacity */
 .background-white.background-transparent, .primary-color-white .background-primary.background-transparent {
@@ -503,7 +503,7 @@ aside.aside-left {
   background-color: rgba(200, 16, 16, 0.85) !important;
 }
 .background-dark.background-transparent, .primary-color-dark .background-primary.background-transparent {
-  background-color: rgba(0, 38, 51, 0.85) !important;
+  background-color: rgba(32,32,32, 0.85) !important;
 }
 
 
@@ -2103,7 +2103,7 @@ video {
 }
 .grow:hover { 
   transform: scale(1.3);
-  background-color: black;
+  background-color: rgb(100,100,100);
    }
 .groww { 
   transition: all .2s ease-in-out; 
@@ -2140,19 +2140,19 @@ video {
   background-position: center;
 }
 .fa-instagram {
-  background: teal;
-  color: red;
+  background: rgb(200,200,200);
+  color: rgb(255,204,204);
 }
 .fa-twitter {
-  background: teal;
+  background: rgb(200,200,200);
   color: red;
 }
 .fa-github {
-  background:teal;
+  background:rgb(200,200,200);
   color: red;
 }
 .fa-youtube {
-  background:teal;
+  background:rgb(200,200,200);
   color:red;
 }
 .pricing{
@@ -2166,7 +2166,7 @@ video {
   height: 100px;
 }
 .contain{
-  width: 100px;
+  width: 250px;
 }
 /**.cover{
   background-image: url(img/responsive.jpg);
@@ -2174,3 +2174,17 @@ video {
   background-repeat: no-repeat;
   background-size: cover;
 }**/
+.font{
+  font-family: verdana;
+}
+.img-circle {
+  border-radius: 2%;
+  height: 100px;
+}
+.img-rounded {
+  border-radius: 6px;
+}
+.size1{
+  height: 160px;
+  width: 160px;
+}
